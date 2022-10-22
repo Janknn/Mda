@@ -160,4 +160,43 @@ section .list .grille .lamborghini img {
   margin: auto;
 }
 
+.history {
+  margin-top: 60px;
+}
+.history h1 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  margin-left: 25%;
+  font-size: 60px;
+}
+.history div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(238, 238, 238);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.history div p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.history div .start {
+  padding-top: 80px;
+}
+.history div .end {
+  padding-bottom: 80px;
+}
+.history div .resize {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.history div .resize2 {
+  width: 74%;
+  margin-left: 175px;
+}
+
 /*# sourceMappingURL=style.css.map */
