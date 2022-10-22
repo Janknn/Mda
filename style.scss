@@ -249,3 +249,91 @@ section {
         
     }
 }
+
+@media screen and (max-width: 850px) {
+    .presentation {
+        display: flex !important;
+        flex-direction: column;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .title {
+        font-size: 20px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .short {
+        border: 0px !important;
+    }
+
+    .long {
+        border: 0;
+        border-radius: 0 !important;
+    }
+
+    .long2 {
+        border-radius: 0 !important;
+    }
+
+    .short img {
+        width: 325px !important;
+        border-radius: 0 !important;
+    }
+
+    .short2 img {
+        width: 335px !important;
+        border-radius: 0 !important;
+    }
+
+    section .list p {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 23px;
+        margin-left: 1%;
+        text-align: center;
+    }
+
+    section .list h1 {
+        font-family: "IBM Plex Sans Condensed", sans-serif;
+        font-size: 40px;
+        margin-left: 23%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-right: 34px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history h1 {
+        font-family: "IBM Plex Sans Condensed", sans-serif;
+        margin-left: 0; 
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .history div {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(238, 238, 238);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .history div .resize2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .history img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
