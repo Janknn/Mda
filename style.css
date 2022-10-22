@@ -38,5 +38,54 @@ section img {
   width: 100%;
   object-fit: scale-down;
 }
+section .title {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  padding-bottom: 150px;
+}
+section div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 600px);
+  row-gap: 15px;
+}
+section div .short {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+section div .short img {
+  width: 600px;
+}
+section div .long {
+  display: flex;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  background-color: rgb(238, 238, 238);
+}
+section div .long h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: 30px;
+}
+section div .short2 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+section div .short2 img {
+  width: 800px;
+}
+section div .long2 {
+  display: flex;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  background-color: rgb(238, 238, 238);
+}
+section div .long2 h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
